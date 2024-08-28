@@ -1,6 +1,10 @@
 @media screen and (width>=768px) {
     header {
-        padding: 35px 50px;
+        padding: 35px 40px;
+    }
+
+    #logo {
+        height: 45px;
     }
 
     .nav-list {
@@ -44,7 +48,7 @@
 
     .main-heading {
         width: 100%;
-        padding: 80px 0 0;
+        padding: 75px 0 0;
         font-size: 48px;
         color: white;
         letter-spacing: 8px;
@@ -74,7 +78,7 @@
     .info {
         align-items: flex-start;
         text-align: left;
-        /* padding: 93px 121px 80px 153px; */
+        padding: 105px 45px;
     }
 
     .design-photo {
@@ -123,11 +127,11 @@
 @media screen and (width> 1200px) {
 
     .nav-list {
-        gap: 50px;
+        gap: 45px;
     }
 
     .header-sec {
-        height: 680px;
+        height: 675px;
     }
 
     .main-heading {
@@ -138,8 +142,19 @@
         top: 41%;
     }
 
+    .sections,
+    .image,
+    .design-section,
+    .photo-section {
+        height: 600px;
+    }
+
     .info {
         padding: 139px 88px 39px 134px;
+    }
+
+    .info h1 {
+        font-size: 48px;
     }
 
     .data {
@@ -153,12 +168,7 @@
 
 @media screen and (width> 1300px) {
 
-    .sections,
-    .image,
-    .design-section,
-    .photo-section {
-        height: 600px;
-    }
+
 
     .testimonials {
         grid-template-columns: 367px 367px 367px;
