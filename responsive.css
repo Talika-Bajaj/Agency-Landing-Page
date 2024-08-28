@@ -61,7 +61,8 @@
         height: 500px;
     }
 
-    #img {
+    .design-section,
+    .photo-section {
         height: 650px;
     }
 
@@ -87,6 +88,11 @@
 
     .data {
         padding: 40px 80px 70px;
+    }
+
+    .data h1 {
+        font-size: 35px;
+
     }
 
     .testimonials-section {
@@ -116,11 +122,15 @@
 @media screen and (width> 1200px) {
 
     .nav-list {
-        gap: 70px;
+        gap: 50px;
     }
 
     .header-sec {
-        height: 650px;
+        height: 700px;
+    }
+
+    .main-heading {
+        font-size: 52px;
     }
 
     #arrow-down {
@@ -128,15 +138,15 @@
     }
 
     .info {
-        padding: 93px 121px 80px 153px;
+        padding: 139px 88px 39px 134px;
     }
 
     .data {
-        padding: 50px 161px 80px;
+        padding: 50px 153px 60px;
     }
 
     .all-images img {
-        height: 425px;
+        height: 435px;
     }
 }
 
@@ -146,7 +156,8 @@
 
     .sections,
     .image,
-    #img {
+    .design-section,
+    .photo-section {
         height: 600px;
     }
 
