@@ -1,0 +1,156 @@
+@media screen and (width>=768px) {
+    header {
+        padding: 35px 50px;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        padding: 0;
+        width: fit-content;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .contact {
+        background-color: white;
+        color: var(--Very_dark_grayish_blue);
+
+    }
+
+    #ham-menu {
+        display: none;
+    }
+
+    .sections {
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'info image';
+        height: 500px;
+    }
+
+    .header-sec {
+        height: 512px;
+    }
+
+    #header-image {
+        height: 100%;
+    }
+
+    .main-heading {
+        width: 100%;
+        padding: 110px 0 0;
+        font-size: 48px;
+        color: white;
+        letter-spacing: 8px;
+        font-family: var(--fraunces);
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #arrow-down {
+        top: 36%;
+    }
+
+    .image {
+        height: 500px;
+    }
+
+    #img {
+        height: 650px;
+    }
+
+    .sections.standout-section {
+        grid-template-areas: 'image info';
+    }
+
+    .info {
+        align-items: flex-start;
+        text-align: left;
+        /* padding: 93px 121px 80px 153px; */
+    }
+
+    .design-photo {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'design photo';
+    }
+
+    .img {
+        height: 100%;
+    }
+
+    .data {
+        padding: 40px 80px 70px;
+    }
+
+    .testimonials-section {
+        padding: 150px 100px;
+    }
+
+    .testimonials {
+        grid-template-columns: 33% 33% 33%;
+        gap: 42px;
+    }
+
+    .test {
+        gap: 66px;
+    }
+
+    .all-images {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .all-images img {
+        height: 350px;
+    }
+}
+
+
+@media screen and (width> 1200px) {
+
+    .nav-list {
+        gap: 70px;
+    }
+
+    .header-sec {
+        height: 650px;
+    }
+
+    #arrow-down {
+        top: 41%;
+    }
+
+    .info {
+        padding: 93px 121px 80px 153px;
+    }
+
+    .data {
+        padding: 50px 161px 80px;
+    }
+
+    .all-images img {
+        height: 425px;
+    }
+}
+
+@media screen and (width> 1300px) {
+
+   
+
+    .sections,
+    .image,
+    #img {
+        height: 600px;
+    }
+
+    .testimonials {
+        grid-template-columns: 367px 367px 367px;
+    }
+}
