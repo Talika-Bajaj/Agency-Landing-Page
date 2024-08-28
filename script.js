@@ -9,16 +9,9 @@ const graphicDesign = document.querySelector('.graphic-design');
 const photgraphy = document.querySelector('.photography');
 const headerImage = document.getElementById('header-image');
 
-function setImage () {
+function setImage() {
     if (window.innerWidth < 768) {
         headerImage.src = 'images/mobile/image-header.jpg'
-    } else {    
-        headerImage.src = 'images/desktop/image-header.jpg'
-        // headerImage.src = 'images/desktop/header-image.jpg'
-    }
-
-
-    if (window.innerWidth < 800) {
         transform.src = 'images/mobile/image-transform.jpg'
         standout.src = 'images/mobile/image-stand-out.jpg'
         graphicDesign.src = 'images/mobile/image-graphic-design.jpg'
@@ -30,6 +23,7 @@ function setImage () {
         sugarcubes.src = 'images/mobile/image-gallery-sugar-cubes.jpg'
         // headerSection.style.background = 'url(/images/mobile/image-header.jpg) no-repeat'
     } else {
+        headerImage.src = 'images/desktop/image-header.jpg'
         transform.src = 'images/desktop/image-transform.jpg'
         standout.src = 'images/desktop/image-stand-out.jpg'
         graphicDesign.src = 'images/desktop/image-graphic-design.jpg'
@@ -51,14 +45,14 @@ window.addEventListener('resize', setImage)
 const hamMenu = document.getElementById('ham-menu');
 const navList = document.querySelector('.nav-list');
 
-hamMenu.addEventListener('click', ()=> {    
+hamMenu.addEventListener('click', () => {
     navList.classList.toggle('flex');
     navList.classList.toggle('absolute');
-    
+
 })
 
 function checkNav(params) {
-    if (window.innerWidth >=800 && navList.classList.contains('absolute')) {
+    if (window.innerWidth >= 800 && navList.classList.contains('absolute')) {
         navList.classList.remove('absolute');
         navList.classList.remove('flex');
         navList.classList.add('open-list');
