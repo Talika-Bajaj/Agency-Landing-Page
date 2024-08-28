@@ -54,7 +54,7 @@ header {
     padding: 25px 50px;
     align-items: center;
     gap: 27px;
-    font-size: 18px;
+    font-size: 19px;
     /* width: 306px;*/
     left: 4%;
     top: 114px;
@@ -98,10 +98,11 @@ header {
 .contact {
     background-color: var(--Yellow);
     color: black;
-    padding: 15px 18px;
+    padding: 17px 22px;
     text-transform: uppercase;
     border-radius: 44px;
     font-weight: 900;
+    font-size: 16px;
     border: none;
     font-family: var(--fraunces);
     border: 1px solid white;
