@@ -25,7 +25,7 @@
 
 header {
     background-color: #3DBFFF;
-    padding: 35px;
+    padding: 40px;
 }
 
 .nav-menu {
@@ -98,10 +98,10 @@ header {
 .contact {
     background-color: var(--Yellow);
     color: black;
-    padding: 12px 23px;
+    padding: 15px 18px;
     text-transform: uppercase;
     border-radius: 44px;
-    font-weight: 700;
+    font-weight: 900;
     border: none;
     font-family: var(--fraunces);
     border: 1px solid white;
@@ -133,6 +133,7 @@ header {
     margin: auto;
     padding: 93px 24px 0;
     font-size: 41px;
+    font-weight: 900;
     color: white;
     letter-spacing: 8px;
     font-family: var(--fraunces);
@@ -379,15 +380,4 @@ footer h2 {
     margin-top: 40px;
     display: flex;
     gap: 40px;
-}
-
-
-@media screen and (width=540px) and (height= 720px) {
-    .header-sec {
-        height: 620px;
-    }
-
-    #arrow-down {
-        top: 49%;
-    }
 }

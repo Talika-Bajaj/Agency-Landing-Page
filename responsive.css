@@ -43,7 +43,7 @@
 
     .main-heading {
         width: 100%;
-        padding: 110px 0 0;
+        padding: 80px 0 0;
         font-size: 48px;
         color: white;
         letter-spacing: 8px;
@@ -126,7 +126,7 @@
     }
 
     .header-sec {
-        height: 700px;
+        height: 680px;
     }
 
     .main-heading {
@@ -152,8 +152,6 @@
 
 @media screen and (width> 1300px) {
 
-   
-
     .sections,
     .image,
     .design-section,
@@ -163,5 +161,17 @@
 
     .testimonials {
         grid-template-columns: 367px 367px 367px;
+    }
+}
+
+
+
+@media screen and (width=540px) and (height= 720px) {
+    .header-sec {
+        height: 620px;
+    }
+
+    #arrow-down {
+        top: 49%;
     }
 }
